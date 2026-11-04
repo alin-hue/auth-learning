@@ -23,7 +23,7 @@ class LoginHandler(BaseHTTPRequestHandler):
         username = data.get("username", [""])[0]
         password = data.get("password", [""])[0]
 
-        if username == "alice" and password == "123456":
+        if username == "xxxx" and password == "xxxx":
             message = "登录成功"
         else:
             message = "用户名或密码错误"
